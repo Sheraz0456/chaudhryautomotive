@@ -1,0 +1,18 @@
+@media only screen and (max-width: 992px) {
+    .header > .header-p > .nav-container {
+        justify-content: space-between;
+    }
+
+    .header > .header-p > .nav-container > .nav-links{
+        display: none;
+    }
+
+    .header > .header-p > .nav-container > .nav-socials > .toggle{
+        display: flex;
+    }
+
+    .header > .header-p > .nav-container > .nav-logos > .logo1 > img{
+        transform: scale(0.7, 0.7);
+        padding: -10px;
+    }
+} 

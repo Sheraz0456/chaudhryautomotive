@@ -1,0 +1,138 @@
+@import url("font.css");
+@import url("nav-media-q.css");
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: opensan;
+    overflow-x: hidden;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-p{
+    width: 100%;
+    position: absolute;
+}
+
+.toggle{
+    display: none;
+}
+
+.toggle-menu{
+    transition: all 1s;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin-left: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 999999;
+    justify-content: center;
+}
+
+.toggle-menu > .exit-ham{
+    align-self: flex-end;
+    margin-right: 80px;
+    font-size: 40px;
+}
+
+.toggle-menu > .exit-ham > a{
+    color: yellow;
+}
+
+.toggle-items{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+.toggle-item{
+    margin-bottom: 20px;
+}
+
+.toggle-links > .nav-link > a,
+.toggle-links > .nav-link > a:visited{
+    color: yellow;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.toggle-links > .nav-link > a:hover,
+.toggle-menu > .exit-ham > a:hover
+{
+    color: darkgoldenrod;
+}
+
+.details-container
+{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.details-container{
+    background-color: yellow;
+}
+
+.nav-container, /*Parent Container*/
+.nav-links, 
+.nav-logos, 
+.nav-socials,
+.toggle-links{
+    display: flex;
+}
+
+.nav-container{
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.95);
+    padding: 15px;
+}
+
+.nav-links > .nav-link > a,
+.nav-links > .nav-link > a:visited,
+.nav-socials > .nav-social > a,
+.nav-socials > .nav-social > a:visited
+{
+    margin-right: 20px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+}
+
+.nav-socials > .nav-social > a{
+    font-size: 22px;
+    margin-right: 22px;
+}
+
+.nav-links > .nav-link > a:hover,
+.nav-socials > .nav-social > a:hover
+{
+    color: gray;
+}
+
+.nav-logos > .logo1 > img{
+    display: flex;
+}
+
+
+
