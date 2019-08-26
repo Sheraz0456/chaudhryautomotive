@@ -10,6 +10,7 @@ $(document).ready(function(){
       });
 
     $("#ham-toggle").click(function(e){
+        $(".toggle-menu").css("display", "flex");
         $(".toggle-menu").css("margin-left", 0);
         $("html, body").css("overflow-y", "hidden");
         e.preventDefault();
