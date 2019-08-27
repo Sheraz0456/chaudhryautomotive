@@ -7,8 +7,7 @@
 
 .why-choose-us-container .why-choose-us
 {
-    text-align: justify;
-    width: 50%;
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
@@ -18,8 +17,14 @@
     text-shadow: 1px 2px black;
 }
 
-.why-choose-us-container .img > div
+.why-choose-us-container .img
 {
+    position: relative;
+}
+
+.why-choose-us-container .img > .why-choose-us-img
+{
+    position: absolute;
     background-image: url("img/why-choose-us.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,6 +35,16 @@
     display: flex;
     flex-direction: column;
     margin: 50px;
+}
+
+.why-choose-us-overlay{
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(37, 37, 24, 0.4);
 }
 
 
