@@ -18,8 +18,6 @@ html, body{
 .header-p{
     width: 100%;
     position: absolute;
-    position: fixed;
-    z-index: 9999;
 }
 
 .toggle{
