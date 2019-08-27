@@ -28,6 +28,10 @@
     .why-choose-us-container > .why-choose-us{
         width: 50%;
     }
+        
+    .content-tiles > div{
+        flex-basis: 33%;
+    }
 }
 
 @media only screen and (orientation: portrait) {
@@ -87,6 +91,11 @@
         width: 100%;      
         height: 50vh;
     }
+
+    .content-tiles > div{
+        flex-basis: 100%;
+    }
+    
 
 }
 
