@@ -34,7 +34,7 @@
 
 .why-choose-us-container .img > .why-choose-us-img
 {
-    position: absolute;
+    position: relative;
     background-image: url("img/why-choose-us.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,7 +45,10 @@
     display: flex;
     flex-direction: column;
     margin: 50px;
+    
     font-size: 90%;
+    
+    justify-content: center;
 }
 
 .why-choose-us-overlay{
