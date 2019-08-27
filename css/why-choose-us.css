@@ -1,0 +1,35 @@
+.why-choose-us-container{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.why-choose-us-container .why-choose-us
+{
+    text-align: justify;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-choose-us-container .content h1{
+    color: yellow;
+    text-shadow: 1px 2px black;
+}
+
+.why-choose-us-container .img > div
+{
+    background-image: url("img/why-choose-us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;        
+}
+
+.why-choose-us-container .content {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+

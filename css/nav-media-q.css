@@ -1,4 +1,4 @@
-@media only screen and (max-width: 992px) and (min-width: 768px) {
+@media only screen and (max-width: 992px){
     .header > .header-p > .nav-container {
         justify-content: space-between;
     }
@@ -16,10 +16,17 @@
         padding: -10px;
     }
 
-    .social1, .social2, .social3{}
 } 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 600px){
+    .why-choose-us-container .img > div
+    {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media only screen and (orientation: portrait) {
 
     .header > .header-p > .nav-container {
         justify-content: space-between;
@@ -54,5 +61,30 @@
     .landing-page-heading{
         transform: scale(0.7);
     }
+
+    .why-choose-us-container{
+        
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .why-choose-us{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .why-choose-us-container .content {
+        font-size: 70%;
+    }
+
+    .why-choose-us-container > .img > div 
+    {
+        width: 100%;      
+        height: 50vh;
+    }
+
 }
+
 
