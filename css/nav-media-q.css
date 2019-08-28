@@ -21,7 +21,8 @@
     }
 }
 
-@media only screen and (max-height: 400px){
+@media only screen and (max-width: 768px){
+
     .header > .header-p > .nav-container {
         justify-content: space-between;
         height: 30px;
@@ -65,100 +66,6 @@
 
     .toggle-social-item > div > a > i{
         font-size: 15px;
-    }
-    
-    .nav-logos{
-        margin-left: -80px;
-    }
-
-    .landing-page-heading{
-        transform: scale(0.5);
-    }
-
-    .why-choose-us-container{
-        
-        height: 100vh;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .why-choose-us{
-        width: 100%;
-        height: 100%;
-    }
-
-    .why-choose-us-container .content {
-        font-size: 15px;
-        margin: 50px;
-    }
-
-    .why-choose-us-container > .img > div 
-    {
-        width: 100%;      
-        height: 50vh;
-    }
-
-    .content-tiles > div{
-        flex-basis: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    
-    .services-tiles > div{
-        flex-basis: 100%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 2px;
-        margin-right: 2px;
-    }
-
-}
-
-@media only screen and (max-width: 768px){
-
-    .header > .header-p > .nav-container {
-        justify-content: space-between;
-        height: 30px;
-    }
-
-    .header > .header-p > .nav-container > .nav-links{
-        display: none;
-    }
-
-    .header > .header-p > .nav-container > .nav-socials > .toggle{
-        display: flex;
-    }
-
-    .social1, .social2, .social3{display: none;}
-
-    .header > .header-p > .nav-container > .nav-logos > .logo1 > img{
-        transform: scale(0.5);
-    }
-
-    .details-container .details{
-        display: none;        
-    }
-
-    .toggle-social-item{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .toggle-menu > .exit-ham{
-        font-size: 25px;
-    }
-
-    .toggle-links > .nav-link > a,
-    .toggle-links > .nav-link > a:visited{
-        font-size: 25px;
-    }
-
-    .toggle-social-item > div{
-        margin-right: 20px;
-    }
-
-    .toggle-social-item > div > a > i{
-        font-size: 20px;
     }
     
     .nav-logos{
