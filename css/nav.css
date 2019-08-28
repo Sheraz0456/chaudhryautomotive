@@ -22,7 +22,7 @@ html, body{
 }
 
 .toggle{
-    display: flex;
+    display: none;
 }
 
 .toggle-menu{
