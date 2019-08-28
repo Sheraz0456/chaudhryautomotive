@@ -1,0 +1,10 @@
+@keyframes mytransition{
+    from{
+        opacity: 0;
+        translate: translateY(10px);
+    }
+    to{
+        opacity: 1;
+        translate: translateY(0px);
+    }
+}

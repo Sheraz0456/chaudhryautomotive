@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"name="viewport">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/landing.css">
     <link rel="stylesheet" href="css/why-choose-us.css">
@@ -109,7 +110,7 @@
                 <div class="landing-content landing-overlay">
                     
                 </div>   
-                <div class="landing-content landing-page-heading">
+                <div class="landing-content landing-page-heading"  data-aos="fade-right">
                     <div>
                         <img src="css/img/certificate.jpg" alt="certificate">
                     </div>
@@ -121,7 +122,7 @@
             </div>
         </div>
         <div class="why-choose-us-container">
-            <div class="why-choose-us content">
+            <div class="why-choose-us content"  data-aos="fade-right">
                 <div>
                     <strong>Why Choose Us?</strong>
                 </div>
@@ -155,7 +156,7 @@
                     </div>
                 </div>
             </div>
-            <div class="why-choose-us img">
+            <div class="why-choose-us img"  data-aos="fade-left">
                 <div class="why-choose-us-img"></div>
                 <div class="why-choose-us-overlay"></div>
             </div>
@@ -176,7 +177,7 @@
                         <p>We’re an authorised log book service provider, which means that bringing your car to us won’t affect your car manufacturer’s warranty. Your car service will always be conducted with full knowledge of the most current vehicle information</p>
                     </div>
                 </div>
-                <div>
+                <div  data-aos="fade-up">
                     <div>
                         <div class="service-ico">
                             <h1>Car Repairs</h1>
@@ -187,7 +188,7 @@
                         <p>We repair engines, brakes, suspension, exhausts, cooling systems, electrical systems, re-gas air conditioning~, and more. With years of motoring experience behind us, you can rely on expert mechanics to provide quality workmanship on all car repairs and car services.</p>
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <div>
                         <div class="service-ico">
                             <h1>Safety Check – Pink/Blue Slip</h1>
@@ -198,7 +199,7 @@
                         <p>Generally, vehicles more than five years old are required by the RMS (Roads and Maritime Services) to pass a safety check – also referred to as a pink slip, or rego check – before you can renew their registration. To know for sure, check your registration renewal notice – it will state it there.</p>
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <div>
                         <div class="service-ico">
                             <h1>Battery Service</h1>
@@ -209,7 +210,7 @@
                         <p>Is your car battery ready for action and properly equipped for the winter? The specialists at our workshops will be pleased to check, service and if necessary replace the battery in your car – and of course dispose of the old one.</p>
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <div>
                         <div class="service-ico">
                             <h1>New Tyre - Service</h1>
@@ -224,7 +225,7 @@
                                 Top quality tyres from leading manufacturers</p>
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <div>
                         <div class="service-ico">
                             <h1>Toyota Hybrid Services</h1>
@@ -243,7 +244,7 @@
                 <p>We provide top notch maintenance service for all types of vehicles.
                     We are certified to service and repair the following makes:</p>
             </div>
-            <div class="serviced-vehicle-container">
+            <div class="serviced-vehicle-container" data-aos="zoom-in">
                 <div>
                     <div>
                         <div class="vehicle-img_1">
@@ -288,11 +289,22 @@
                 </div>
             </div>
         </div>
+        <div class="web-map">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.889817049558!2d151.03398491492166!3d-33.84095202504479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a3520de26487%3A0x8061651afa758733!2s5%20Stubbs%20St%2C%20Auburn%20NSW%202144%2C%20Australia!5e0!3m2!1sen!2s!4v1566985324884!5m2!1sen!2s" frameborder="0" style="width: 100vw; height: 60vh;" allowfullscreen=""></iframe>
+            </div>
+        </div>
     </div>
 <script
 src="https://code.jquery.com/jquery-3.4.1.min.js"
 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+    AOS.init({
+        duration: 1200,
+    });
+</script>
 </body>
 </html>
