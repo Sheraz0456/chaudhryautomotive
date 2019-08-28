@@ -32,6 +32,10 @@
     .content-tiles > div{
         flex-basis: 33%;
     }
+
+    .services-tiles > div{
+        flex-basis: 27%;
+    }
 }
 
 @media only screen and (orientation: portrait) {
@@ -83,7 +87,8 @@
     }
 
     .why-choose-us-container .content {
-        font-size: 70%;
+        font-size: 15px;
+        margin: 50px;
     }
 
     .why-choose-us-container > .img > div 
@@ -96,6 +101,9 @@
         flex-basis: 100%;
     }
     
+    .services-tiles > div{
+        flex-basis: 100%;
+    }
 
 }
 

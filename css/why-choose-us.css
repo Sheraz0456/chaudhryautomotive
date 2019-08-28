@@ -44,9 +44,9 @@
 .why-choose-us-container .content {
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    
-    font-size: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 12px;
     
     justify-content: center;
 }
@@ -67,12 +67,11 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 10px;
+    margin-right: 10px;
 }
 
-.content-tiles > div > div > i{
-    font-size: 60px;
-    color: yellow;
-    text-shadow: 1px 1px 5px black;
+.content-tiles > div > div > img{
+    transform: scale(0.8);
 }
 
 .content-tiles > div > div > h1{
