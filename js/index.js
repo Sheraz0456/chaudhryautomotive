@@ -12,13 +12,12 @@ $(document).ready(function(){
     $("#ham-toggle").click(function(e){
         $(".toggle-menu").css("display", "flex");
         $(".toggle-menu").css("margin-left", 0);
-        $("html, body").css("overflow-y", "hidden");
-        e.preventDefault();
+        $(".toggle-menu").css("position", "fixed");
     });
     
     $(".exit-ham").click(function(){
         $(".toggle-menu").css("margin-left", '100%');
-        $("html, body").css("overflow-y", "initial");
+        $(".toggle-menu").css("position", "absolute");
     });
 
 });

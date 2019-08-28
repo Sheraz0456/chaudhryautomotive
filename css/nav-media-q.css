@@ -43,9 +43,29 @@
     }
 
     .details-container .details{
-        display: none;
-        
-        
+        display: none;        
+    }
+
+    .toggle-social-item{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .toggle-menu > .exit-ham{
+        font-size: 25px;
+    }
+
+    .toggle-links > .nav-link > a,
+    .toggle-links > .nav-link > a:visited{
+        font-size: 25px;
+    }
+
+    .toggle-social-item > div{
+        margin-right: 20px;
+    }
+
+    .toggle-social-item > div > a > i{
+        font-size: 20px;
     }
     
     .nav-logos{

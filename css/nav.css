@@ -22,7 +22,7 @@ html, body{
 }
 
 .toggle{
-    display: none;
+    display: flex;
 }
 
 .toggle-menu{
@@ -40,8 +40,7 @@ html, body{
 
 .toggle-menu > .exit-ham{
     align-self: flex-end;
-    margin-right: 80px;
-    font-size: 40px;
+    margin-right: 35px;
 }
 
 .toggle-menu > .exit-ham > a{
@@ -52,7 +51,7 @@ html, body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    align-items: center;
+    
 }
 
 .toggle-item{
@@ -62,11 +61,23 @@ html, body{
 .toggle-links > .nav-link > a,
 .toggle-links > .nav-link > a:visited{
     color: yellow;
-    font-size: 40px;
     font-weight: bolder;
 }
 
 .toggle-links > .nav-link > a:hover,
+.toggle-menu > .exit-ham > a:hover
+{
+    color: darkgoldenrod;
+}
+
+.toggle-links > .nav-link > div > a,
+.toggle-links > .nav-link > div > a:visited{
+    color: yellow;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.toggle-links > .nav-link > div > a:hover,
 .toggle-menu > .exit-ham > a:hover
 {
     color: darkgoldenrod;
