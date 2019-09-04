@@ -19,6 +19,31 @@
         margin: 30px;
         
     }
+
+    .footer-left > div > div {
+        text-align: justify;
+    }
+
+    .footer-left > div > div > p{
+        font-size: 13px;
+    }
+
+    .footer-left > div > div > h1{
+        font-size: 20px;
+    }
+
+    .footer-right > div > div {
+        text-align: justify;
+    }
+
+    .footer-right > div > div > p{
+        font-size: 11px;
+    }
+
+    .footer-right > div > div > h1{
+        font-size: 16px;
+    }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -111,6 +136,30 @@
         margin-bottom: 10px;
         margin-left: 2px;
         margin-right: 2px;
+    }
+
+    .footer-left > div{
+        font-size: 12px;
+    }
+
+    .footer-left > h1{
+        font-size: 14px;
+    }
+
+    .footer-left > div > div > p{
+        font-size: 11px;
+    }
+
+    .footer-left > div > div > h1{
+        font-size: 18px;
+    }
+
+    .footer-right > div > div > p{
+        font-size: 9px;
+    }
+
+    .footer-right > div > div > h1{
+        font-size: 14px;
     }
 
 }

@@ -8,7 +8,6 @@ html, body{
     box-sizing: border-box;
     font-family: opensan;
     overflow-x: hidden;
-    height: 1000%;
 }
 
 .flex-container{

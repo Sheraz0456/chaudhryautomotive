@@ -1,0 +1,38 @@
+.footer{
+    height: 100%;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: row;
+    border-bottom: 10px solid yellow;
+    padding-bottom: 100px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.footer-left > div > div{
+    display: flex;
+    color: yellow;    
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.footer-right > div {
+    margin-right: 30px;
+}
+
+.footer-right > div > div{
+    display: flex;
+    color: yellow;    
+}
+
